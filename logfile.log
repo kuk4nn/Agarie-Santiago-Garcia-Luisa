@@ -1,0 +1,36 @@
+[2024-08-13 19:51:04] [ ERROR] [OdontologoServiceTest:32] [crearTablas] Syntax error in SQL statement "\000a\000aCREATE TABLE ODONTOLOGOS(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aNROMATRICULA INT NOT NULL[*]"; expected "DEFAULT, GENERATED, ON UPDATE, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+
+
+CREATE TABLE ODONTOLOGOS(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NROMATRICULA INT NOT NULL [42001-230]
+[2024-08-13 19:51:30] [ ERROR] [OdontologoServiceTest:32] [crearTablas] Syntax error in SQL statement "\000a\000aINSERT INTO ODONTOLOGOS VALUES(DEFAULT, 234, 'MARTIN', 'GONZALEZ'),\000a(DEFAULT, 134, 'MALENA', 'VALDEZ'),\000a(DEFAULT, 214, 'MARCO', 'LORENZO'),\000a\000a\000a[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES(DEFAULT, 234, 'MARTIN', 'GONZALEZ'),
+(DEFAULT, 134, 'MALENA', 'VALDEZ'),
+(DEFAULT, 214, 'MARCO', 'LORENZO'),
+
+
+ [42001-230]
+[2024-08-13 19:52:52] [ ERROR] [OdontologoServiceTest:32] [crearTablas] Syntax error in SQL statement "\000a\000aINSERT INTO ODONTOLOGOS VALUES(([*]DEFAULT, 234, 'MARTIN', 'GONZALEZ'),\000a(DEFAULT, 134, 'MALENA', 'VALDEZ'),\000a(DEFAULT, 214, 'MARCO', 'LORENZO'))"; expected "), INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES((DEFAULT, 234, 'MARTIN', 'GONZALEZ'),
+(DEFAULT, 134, 'MALENA', 'VALDEZ'),
+(DEFAULT, 214, 'MARCO', 'LORENZO')) [42001-230]
+[2024-08-13 19:55:14] [ INFO ] [OdontologoDaoH2:45] [guardarOdontologo] Odontologo persistido Odontologo{id=4, nroMatricula=569, nombre='SEBASTIAN', apellido='MENDOZA'}
+[2024-08-13 20:08:13] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] []
+[2024-08-13 20:08:13] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}]
+[2024-08-13 20:08:13] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}]
+[2024-08-13 20:20:17] [ INFO ] [OdontologoDaoH2:48] [guardarOdontologo] Odontologo persistido Odontologo{id=4, nroMatricula=268, nombre='MARTINA', apellido='LOPEZ'}
+[2024-08-13 20:24:58] [ INFO ] [OdontologoDaoH2Memoria:19] [guardarOdontologo] Odontologo guardado Odontologo{id=1, nroMatricula=268, nombre='MARTINA', apellido='LOPEZ'}
+[2024-08-13 20:28:44] [ INFO ] [OdontologoDaoH2Memoria:19] [guardarOdontologo] Odontologo guardado Odontologo{id=1, nroMatricula=268, nombre='MARTINA', apellido='LOPEZ'}
+[2024-08-13 20:28:44] [ INFO ] [OdontologoDaoH2Memoria:19] [guardarOdontologo] Odontologo guardado Odontologo{id=2, nroMatricula=315, nombre='JUAN', apellido='PEREZ'}
+[2024-08-13 20:28:44] [ INFO ] [OdontologoDaoH2Memoria:26] [buscarTodos] Odontologo{id=1, nroMatricula=268, nombre='MARTINA', apellido='LOPEZ'}
+[2024-08-13 20:28:44] [ INFO ] [OdontologoDaoH2Memoria:26] [buscarTodos] Odontologo{id=2, nroMatricula=315, nombre='JUAN', apellido='PEREZ'}
+[2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] []
+[2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}]
+[2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}]
+[2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}]
+[2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}, Odontologo{id=4, nroMatricula=315, nombre='JUAN', apellido='PEREZ'}]
