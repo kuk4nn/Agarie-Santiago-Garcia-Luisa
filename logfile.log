@@ -34,3 +34,22 @@ INSERT INTO ODONTOLOGOS VALUES((DEFAULT, 234, 'MARTIN', 'GONZALEZ'),
 [2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}]
 [2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}]
 [2024-08-13 20:31:32] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}, Odontologo{id=4, nroMatricula=315, nombre='JUAN', apellido='PEREZ'}]
+[2024-08-13 20:49:28] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] []
+[2024-08-13 20:49:28] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}]
+[2024-08-13 20:49:28] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}]
+[2024-08-13 20:49:28] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}]
+[2024-08-13 20:51:40] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] []
+[2024-08-13 20:51:40] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}]
+[2024-08-13 20:51:40] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}]
+[2024-08-13 20:51:40] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}]
+[2024-08-13 20:51:40] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}, Odontologo{id=4, nroMatricula=315, nombre='JUAN', apellido='PEREZ'}]
+[2024-08-13 20:54:02] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] []
+[2024-08-13 20:54:02] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}]
+[2024-08-13 20:54:02] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}]
+[2024-08-13 20:54:02] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] [Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}, Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}, Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}]
+[2024-08-13 20:54:02] [ INFO ] [OdontologoDaoH2:101] [buscarTodos] 4
+[2024-08-13 20:55:33] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] Odontologo{id=1, nroMatricula=234, nombre='MARTIN', apellido='GONZALEZ'}
+[2024-08-13 20:55:33] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] Odontologo{id=2, nroMatricula=134, nombre='MALENA', apellido='VALDEZ'}
+[2024-08-13 20:55:33] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] Odontologo{id=3, nroMatricula=214, nombre='MARCO', apellido='LORENZO'}
+[2024-08-13 20:55:33] [ INFO ] [OdontologoDaoH2:98] [buscarTodos] Odontologo{id=4, nroMatricula=315, nombre='JUAN', apellido='PEREZ'}
+[2024-08-13 20:55:33] [ INFO ] [OdontologoDaoH2:101] [buscarTodos] 4

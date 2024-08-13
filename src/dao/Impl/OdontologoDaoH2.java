@@ -95,9 +95,10 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 String nombre = resultSet.getString(3);
                 String apellido = resultSet.getString(4);
                 odontologo = new Odontologo(id, nroMatricula, nombre, apellido);
-                logger.info(odontologos);
+                logger.info(odontologo);
                 odontologos.add(odontologo);
             }
+            logger.info(odontologos.size());
 
         } catch (Exception e){
             logger.error(e.getMessage());
