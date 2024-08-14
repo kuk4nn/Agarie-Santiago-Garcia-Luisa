@@ -98,7 +98,6 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 logger.info(odontologo);
                 odontologos.add(odontologo);
             }
-            logger.info(odontologos.size());
 
         } catch (Exception e){
             logger.error(e.getMessage());
